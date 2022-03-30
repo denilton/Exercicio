@@ -1,0 +1,14 @@
+var n10, n5, n2, n1, valor;
+
+valor = parseInt(prompt("Digite o valor do saque: "));
+alert(valor)
+
+n10 = parseInt(valor/10);
+n5 = parseInt((valor%10)/5);
+n2 = parseInt(((valor%10)%5)/2);
+n1 = parseInt((((valor%10)%5)%2)/1);
+
+if (n10 !=0){alert("R$10,00"+" "+n10)};
+if(n5!=0){alert("R$5,00"+" "+n5)}; 
+if(n2!=0){alert("R$2,00"+" "+n2)}
+if(n1!=0){alert("R$1,00"+" "+n1)};
